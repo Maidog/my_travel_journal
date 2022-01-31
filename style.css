@@ -9,6 +9,10 @@ html, body {
     
 }
 
+section {
+    margin: 0 auto;
+}
+
 .card--img {
     height: 300px;
     width: 30%;
@@ -47,7 +51,6 @@ html, body {
 }
 
 .card--content {
-    max-width: 500px;
     margin-left: 2rem;
 }
 
