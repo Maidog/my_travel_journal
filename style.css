@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0 auto;
+    color: #2B283A;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.card--img {
+    height: 300px;
+    width: 30%;
+    object-fit: cover;
+    object-position: 60% 100%;
+    border-radius: 20px;
+}
+
+.card--location {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.lIcon {
+    width: 0.65rem;
+    object-fit: cover;
+    margin-right: 0.5em;
+}
+
+.card--locationName {
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing:0.1em;
+    margin-right: 2em;
+}
+
+.card--locationLink {
+    color: #918E9B;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    margin: 2rem;
+}
+
+.card--content {
+    max-width: 500px;
+    margin-left: 2rem;
+}
+
+.card--title {
+    margin-top: 0;
+    margin-bottom: 1.5em;
+}
+
+.header {
+    background-color: #F55A5A;
+    height: 10vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.globeIcon {
+    margin-right: 0.5rem;
+}
